@@ -227,7 +227,7 @@ nav{
   align-items: center;
 }
 .photo{
-  border: 3px solid silver;  
+  border-top: 10px solid silver;  
 }
 .arrow{
   margin: 5px 0 0 30px;
