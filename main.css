@@ -223,12 +223,12 @@ nav{
 }
 .photo, .creativity, .web_design{
   display: flex;
-  border: 1.5px solid silver;
+  border: 5px solid silver;
   align-items: center;
 }
-.photo{
-  border-top: 10px solid silver;  
-}
+/* .photo{
+  border-top: 10px solid silver;
+} */
 .arrow{
   margin: 5px 0 0 30px;
   transform: scaleX(3) scaleY(2);
