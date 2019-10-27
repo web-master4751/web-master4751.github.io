@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Corben|Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  color: #000;
+  background: red;
+ }
+body{
+  background-color: #e7e1fa;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+header{
+  opacity: 0.85;
+  background-color: #4f61de;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.logo{
+  width: 15%;
+  margin-left: 15px;
+  margin-right: 10%;
+}
+.logo > a{
+  font-family: 'Muli', sans-serif;
+  color: #eeff00;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 40%;
+}
+.nav{
+  margin-right: 10%;
+}
+.links{
+  margin-right: 15px;
+  font-size: 1.5em;
+  color: #eeff00;
+  text-decoration: none;
+}
+.links:hover{
+  text-decoration: underline;
+}
+@media (max-width: 900px){
+  .logo > a{
+    font-size: 2em;
+}
+  .logo > span{
+    font-size: 1.5em;
+  }
+}
+main{
+  width: 100%;
+}
+.main-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1200px;
+  background-color: #bd483d;
+}
+.main-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3a13d;
+}
+.main-text{
+  font-family: 'Corben', cursive;
+  font-size: 5em;
+  text-align: center;
+  padding: 0 600px;
+  color: #fff;
+}
+.text{
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 1.8em;
+  margin: 20px 20%;
+  color: #fff;
+}
+.text h1{
+  text-align: left;
+  margin: 0 -20% 0 0;
+  color: #fff;
+}
+.text p{
+  padding: 0 0 0 10px;
+  border-left: 4px solid #ff4040;
+}
+.start{
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .main-text{
+    font-size: 3.5em;
+  }
+  .text{
+    font-size: 1.5em;
+  }
+}
+footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+  background: linear-gradient(to left, #f75231, #f2a538);
+}
+.logo > span{
+  font-family: 'Muli', sans-serif;
+  color: #eeff00;
+  font-size: 2em;
+}
+.footer{
+  margin-right: 5%;
+}
+.footer > span{
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  margin-right: 10%;
+}
