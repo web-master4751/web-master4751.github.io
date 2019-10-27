@@ -15,7 +15,7 @@ for(let x = 0;x < btn.length;x++){
       btn[x].classList.add('down');
 
       let lorem = div[x].querySelector('.lorem_two');
-      lorem[0].remove();
+      lorem.remove();
     }
   });
 }
