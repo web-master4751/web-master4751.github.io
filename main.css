@@ -245,12 +245,12 @@ nav{
   width: 30px;
   margin: 10px;
 }
-.lorem_two{
+.div_text{
   border-left: 1.5px solid silver;
   border-right: 1.5px solid silver;
   padding: 15px;
   color: grey;
 }
-.lorem_two:last-of-type{
+.div_text:last-of-type{
   border-bottom: 1.5px solid silver;
 }
