@@ -230,7 +230,7 @@ nav{
   border-top: 4px solid silver;
 }
 .arrow{
-  margin: 5px 0 0 30px;
+  margin: 5px 10px 0 0;
   transform: scaleX(3) scaleY(2);
   width: 15px;
   color: #666;
@@ -238,7 +238,7 @@ nav{
   user-select: none;
 }
 .down{
-  margin: -7px 0 0 30px;
+  margin: -7px 10px 0 0;
   transform: scaleX(3) scaleY(2) rotateX(180deg);
 }
 .lol{
