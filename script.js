@@ -1,4 +1,4 @@
-let btn = document.querySelectorAll('.arrow.down');
+let btn = document.querySelectorAll('.arrow');
 let div = document.querySelectorAll('.div_text');
 
 for(let x = 0;x < btn.length;x++){
