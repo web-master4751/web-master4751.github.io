@@ -10,13 +10,7 @@ for(let x = 0;x < btn.length;x++){
           div[y].style.display = 'none';
         }
       }
-
-      btn[x].classList.remove('down');
-      div[x].style.display = 'block';
-    }
-    else{
-      btn[x].classList.add('down');
-      div[x].style.display = 'none';
-    }
+    btn[x].classList.remove('down');
+    div[x].style.display = 'block';
   });
 }
