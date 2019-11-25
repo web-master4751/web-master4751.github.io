@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ColorClock</title>
+</head>
+<body>
+  <style>
+    *{
+      outline: none;
+    }
+    *::selection {
+      color: #fff;
+      background: red;
+     }
+    .time{
+      font-size: 4em;
+      color: #fff;
+    }
+    .color{
+      font-size: 2em;
+      color: #fff;
+    }
+    .stop{
+      padding: 2px 40px 2px 40px;
+      border: 2px solid white;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <main>
+    <span class="time">hh:mm:ss</span>
+    <span class="color">#hhmmss</span>
+    <input type="button" class="stop" value="Stop">
+  </main>
+
+  <script src="clock.js"></script>
+</body>
+</html>

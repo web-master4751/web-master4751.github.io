@@ -1,0 +1,10 @@
+#canvas{
+   cursor: crosshair;
+   border: 7px solid black;
+   border-radius: 15px;
+}
+#color{
+  position: absolute;
+  top: 10px;
+  left: 75%;
+}
